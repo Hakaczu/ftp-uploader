@@ -1,5 +1,5 @@
 FROM composer:latest
 RUN apk update
-RUN apk add lftp openssh-client
+RUN apk add lftp openssh-client curl
 
 
