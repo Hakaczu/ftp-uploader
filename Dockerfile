@@ -1,5 +1,5 @@
-FROM alpine:3.18.4
-
-RUN apk add lftpd
+FROM composer:latest
+RUN apk update
+RUN apk add lftp openssh-client
 
 
